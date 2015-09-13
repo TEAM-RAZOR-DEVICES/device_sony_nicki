@@ -1,12 +1,12 @@
 [
   {
     "repository": "CyanogenMod/android_device_sony_common",
-    "target_path": "device/sony/common"
+    "target_path": "device/sony/common",
     "revision": "cm-12.1"
   },
   {
     "repository": "CyanogenMod/android_kernel_sony_msm8x27",
-    "target_path": "kernel/sony/msm8x27"
+    "target_path": "kernel/sony/msm8x27",
     "revision": "cm-12.1"
   },
 ]
