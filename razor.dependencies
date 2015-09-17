@@ -9,4 +9,8 @@
     "target_path": "kernel/sony/msm8x27",
     "revision": "cm-12.1"
   },
+  {
+    "repository": "TEAM-RAZOR-DEVICES/proprietary_vendor_sony",
+    "target_path": "vendor/sony",
+    "revision": "lp5.1"
 ]
