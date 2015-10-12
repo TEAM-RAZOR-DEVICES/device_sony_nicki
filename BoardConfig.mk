@@ -50,6 +50,13 @@ BOARD_MKBOOTIMG_ARGS := --ramdisk_offset 0x02000000
 TARGET_KERNEL_SOURCE := kernel/sony/msm8x27
 TARGET_KERNEL_CONFIG := cyanogenmod_nicki_defconfig
 
+# Kernel Toolchain
+KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/arm/arm-eabi-4.9/bin
+KERNEL_TOOLCHAIN_PREFIX := arm-eabi-
+
+# Rom Toolchain
+TARGET_GCC_VERSION_EXP := 4.9
+
 # Partitions
 TARGET_USERIMAGES_USE_EXT4 := true
 BOARD_BOOTIMAGE_PARTITION_SIZE := 0x01400000
